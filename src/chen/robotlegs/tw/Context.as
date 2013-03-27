@@ -1,5 +1,7 @@
 package chen.robotlegs.tw
 {
+	import chen.robotlegs.tw.view.MessageInput;
+	
 	import flash.display.DisplayObjectContainer;
 	
 	import org.robotlegs.mvcs.Context;
@@ -13,7 +15,10 @@ package chen.robotlegs.tw
 		override public function startup():void
 		{
 			//model
+			
 			//views
+			mediatorMap.mapView(MessageInput,
+			
 			super.startup();
 		}
 	}

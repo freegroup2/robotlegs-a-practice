@@ -10,6 +10,6 @@
 	<s:VGroup width="100%" height="100%">
 		<view:Button width="100" height="100"/>
 		<view:showLabel width="100" height="100"/>
-		<view:textInput/>
+		<view:MessageInput/>
 	</s:VGroup>
 </s:Application>
